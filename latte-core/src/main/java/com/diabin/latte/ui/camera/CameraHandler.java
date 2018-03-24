@@ -42,7 +42,7 @@ public class CameraHandler implements View.OnClickListener {
         final Window window = DIALOG.getWindow();
         if (window != null) {
             window.setContentView(R.layout.dialog_camera_panel);
-            window.setGravity(Gravity.BOTTOM);
+            window.setGravity(Gravity.CENTER);
             window.setWindowAnimations(R.style.anim_panel_up_from_bottom);// 设置动画
             window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
             // 设置属性
